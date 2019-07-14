@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Utilities Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLZUTILITIES</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZDISPLAY_LOG</FUNCNAME>
+     <SHORT_TEXT>Display Log Message</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_LOG_MESSAGE</PARAMETER>
+       <DBSTRUCT>SYMSG</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_LOG_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure of message variables</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

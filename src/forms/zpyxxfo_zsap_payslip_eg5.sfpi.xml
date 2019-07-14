@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>E</LANGUAGE>
+     <ID/>
+     <TEXT/>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS/>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>G_PLANS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>PLANS</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>G_ORGEH</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ORGEH</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>STEXT_TIT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STEXT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>STEXT_DEP</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STEXT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TOTAL_OTHER_DED</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TOTAL_OTHER_EARN</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>NET_PAY</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>G_KTART</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ABWKO</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>G_ANZHL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>PTM_QUONUM</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>G_REM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>PTM_QUONUM</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GROSS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>BASIC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>SPECIAL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>NORMAL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TRANS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>PER_NO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>PRDNI</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>PER_NAME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>EMNAM</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>SOCIAL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>INCOME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>UNPAID</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>PER_LOAN</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>LATE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>MEDICAL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TOTAL_TOTAL_EARN</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>RETRO_NEG</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>RETRO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TOTAL_TOTAL_DED</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>NET</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAXBT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES/>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>HRDATA</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/1PYXXFO/ZSAP_PAYSLIP_EG5</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS/>
+     <OUTPUT_PARAMETERS/>
+     <INITIALIZATION>
+      <FPCLINE>DATA : TOTAL_EARNING TYPE MAXBT .</FPCLINE>
+      <FPCLINE>*DATA : TOTAL_TOTAL_DED TYPE MAXBT .</FPCLINE>
+      <FPCLINE>DATA : TOTAL_DED TYPE MAXBT .</FPCLINE>
+      <FPCLINE>DATA : TOTAL_DED_LATNESS TYPE MAXBT .</FPCLINE>
+      <FPCLINE>DATA : TOTAL_DED_UNPAID TYPE MAXBT .</FPCLINE>
+      <FPCLINE>DATA : VAR TYPE CHAR1 ,</FPCLINE>
+      <FPCLINE>       VAR1 TYPE CHAR2 .</FPCLINE>
+      <FPCLINE>DATA : IT_RES TYPE TABLE OF BAPIABWKON .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA : g_seqnr LIKE hrpy_rgdir-seqnr.</FPCLINE>
+      <FPCLINE>DATA: g_relid  TYPE t500l-relid.</FPCLINE>
+      <FPCLINE>DATA: l_relid  TYPE PCL2-RELID.</FPCLINE>
+      <FPCLINE>DATA: py_result TYPE PAY99_RESULT.</FPCLINE>
+      <FPCLINE>DATA: MYRT LIKE TABLE OF pc207 WITH HEADER LINE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>If sy-uname = &apos;H.MOSTAFA&apos;.</FPCLINE>
+      <FPCLINE>Break-point.</FPCLINE>
+      <FPCLINE>Endif.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>READ TABLE HRDATA-STAR_PAY_PERS_STRUCT into data(FS_DATA) INDEX 1 .</FPCLINE>
+      <FPCLINE>READ TABLE HRDATA-STAR_PAYROLL_PERIOD into data(FS_period) INDEX 1 .</FPCLINE>
+      <FPCLINE>READ TABLE HRDATA-DIM_POSITION_KEY into data(FS_pos) INDEX 1 .</FPCLINE>
+      <FPCLINE>SELECT SINGLE seqnr INTO g_seqnr FROM hrpy_rgdir WHERE pernr = FS_DATA-EMPLOYEE_KEY-PERSONNEL_NUMBER</FPCLINE>
+      <FPCLINE>                             AND fpper = FS_PERIOD-INPERIOD_KEY-PERIOD AND srtza = &apos;A&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>    CALL FUNCTION &apos;PYXX_READ_PAYROLL_RESULT&apos;</FPCLINE>
+      <FPCLINE>          EXPORTING</FPCLINE>
+      <FPCLINE>            clusterid                    = &apos; &apos;</FPCLINE>
+      <FPCLINE>*            clusterid                    = g_relid</FPCLINE>
+      <FPCLINE>            employeenumber               = FS_DATA-EMPLOYEE_KEY-PERSONNEL_NUMBER</FPCLINE>
+      <FPCLINE>            sequencenumber               = g_seqnr</FPCLINE>
+      <FPCLINE>            read_only_buffer             = &apos; &apos;</FPCLINE>
+      <FPCLINE>            read_oNLY_INTERNATIONAL             = &apos;X&apos;</FPCLINE>
+      <FPCLINE>          CHANGING</FPCLINE>
+      <FPCLINE>            payroll_result               = py_result</FPCLINE>
+      <FPCLINE>          exceptions</FPCLINE>
+      <FPCLINE>                illegal_isocode_or_clusterid = 1</FPCLINE>
+      <FPCLINE>                error_generating_import      = 2</FPCLINE>
+      <FPCLINE>                import_mismatch_error        = 3</FPCLINE>
+      <FPCLINE>                subpool_dir_full             = 4</FPCLINE>
+      <FPCLINE>                no_read_authority            = 5</FPCLINE>
+      <FPCLINE>                no_record_found              = 6</FPCLINE>
+      <FPCLINE>                versions_do_not_match        = 7</FPCLINE>
+      <FPCLINE>                error_reading_archive        = 8</FPCLINE>
+      <FPCLINE>                error_reading_relid          = 9.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE ENAME FROM PA0001 INTO PER_NAME WHERE PERNR = FS_DATA-EMPLOYEE_KEY-PERSONNEL_NUMBER .</FPCLINE>
+      <FPCLINE>SELECT SINGLE ORGEH PLANS FROM PA0001 INTO ( G_ORGEH , G_PLANS )</FPCLINE>
+      <FPCLINE>  WHERE PERNR = FS_DATA-EMPLOYEE_KEY-PERSONNEL_NUMBER .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PER_NO = FS_DATA-EMPLOYEE_KEY-PERSONNEL_NUMBER .</FPCLINE>
+      <FPCLINE>shift PER_NO left deleting leading &apos;0&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>STEXT_TIT = FS_POS-TEXT .</FPCLINE>
+      <FPCLINE>*SELECT SINGLE STEXT FROM HRP1000 INTO STEXT_TIT WHERE OBJID = G_PLANS</FPCLINE>
+      <FPCLINE>*                                                          AND OTYPE = &apos;S&apos; .</FPCLINE>
+      <FPCLINE>SELECT SINGLE STEXT FROM HRP1000 INTO STEXT_DEP WHERE OBJID = G_ORGEH</FPCLINE>
+      <FPCLINE>                                                          AND OTYPE = &apos;O&apos; .</FPCLINE>
+      <FPCLINE>SELECT SINGLE ANZHL FROM PA2006 INTO G_ANZHL WHERE PERNR = FS_DATA-EMPLOYEE_KEY-PERSONNEL_NUMBER</FPCLINE>
+      <FPCLINE>                                             AND KTART = &apos;01&apos; .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>READ TABLE HRDATA-STAR_PAYROLL_PERIOD INTO DATA(fs_test) index 1.</FPCLINE>
+      <FPCLINE>*WITH KEY EMPLOYEE_PERSONNEL_ID = &lt;FS_DATA&gt;-EMPLOYEE_KEY-PERSONNEL_NUMBER .</FPCLINE>
+      <FPCLINE>CALL FUNCTION &apos;REMAINING_TIMEQUOTA&apos; &quot;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>   EMPLOYEENUMBER = FS_DATA-EMPLOYEE_KEY-PERSONNEL_NUMBER</FPCLINE>
+      <FPCLINE>   LANGUAGE = SY-LANGU</FPCLINE>
+      <FPCLINE>   DATE = fs_test-INPERIOD_KEY-PAYDATE</FPCLINE>
+      <FPCLINE>  TABLES</FPCLINE>
+      <FPCLINE>    TIMEQUOTA = IT_RES</FPCLINE>
+      <FPCLINE>.</FPCLINE>
+      <FPCLINE>READ TABLE IT_RES INTO DATA(FS_RES) WITH KEY QUOTATYPE = &apos;01&apos; .</FPCLINE>
+      <FPCLINE>G_REM = FS_RES-QUOTANUM .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE> LOOP AT  py_result-inter-rt INTO DATA(FS_EARN).</FPCLINE>
+      <FPCLINE>   CLEAR VAR .</FPCLINE>
+      <FPCLINE>    IF  FS_eARN-LGART = &apos;9001&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9002&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9400&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9401&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9402&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9403&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9500&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9501&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9502&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9503&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9504&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9505&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9506&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9507&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9508&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9509&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9510&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9511&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9513&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9514&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9515&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9516&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9529&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9530&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9531&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9532&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9533&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9534&apos;</FPCLINE>
+      <FPCLINE>     OR     FS_eARN-LGART = &apos;9535&apos; .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    TOTAL_OTHER_EARN = TOTAL_OTHER_EARN + FS_eARN-BETRG .</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>     IF</FPCLINE>
+      <FPCLINE>     FS_eARN-LGART = &apos;M020&apos; OR</FPCLINE>
+      <FPCLINE>     FS_eARN-LGART = &apos;9536&apos; OR</FPCLINE>
+      <FPCLINE>     FS_eARN-LGART = &apos;9512&apos; OR</FPCLINE>
+      <FPCLINE>     FS_eARN-LGART = &apos;9000&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>     VAR = &apos;X&apos; .</FPCLINE>
+      <FPCLINE>     TOTAL_EARNING = TOTAL_EARNING + FS_eARN-BETRG .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  IF FS_eARN-lgart = &apos;/101&apos; .</FPCLINE>
+      <FPCLINE>    GROSS = FS_eARN-betrG .</FPCLINE>
+      <FPCLINE>  ELSEIF FS_eARN-LGART = &apos;M020&apos; .</FPCLINE>
+      <FPCLINE>    BASIC = FS_eARN-BETRG .</FPCLINE>
+      <FPCLINE>  ELSEIF FS_eARN-LGART = &apos;9536&apos; .</FPCLINE>
+      <FPCLINE>    SPECIAL = FS_eARN-BETRG.</FPCLINE>
+      <FPCLINE>  ELSEIF FS_eARN-LGART = &apos;9512&apos; .</FPCLINE>
+      <FPCLINE>    NORMAL = FS_eARN-BETRG .</FPCLINE>
+      <FPCLINE>  ELSEIF FS_eARN-LGART = &apos;9000&apos;.</FPCLINE>
+      <FPCLINE>    TRANS = FS_eARN-BETRG .</FPCLINE>
+      <FPCLINE>   ELSEIF FS_eARN-LGART = &apos;/522&apos; AND FS_eARN-BETRG &gt; 0 .</FPCLINE>
+      <FPCLINE>     IF  FS_eARN-BETRG &gt; 0.</FPCLINE>
+      <FPCLINE>      Retro = FS_eARN-BETRG .</FPCLINE>
+      <FPCLINE>     elseif FS_eARN-BETRG &lt; 0.</FPCLINE>
+      <FPCLINE>      RETRO_NEG = FS_eARN-BETRG * -1.</FPCLINE>
+      <FPCLINE>     ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  IF  FS_eARN-LGART = &apos;9527&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9519&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9526&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;9528&apos;</FPCLINE>
+      <FPCLINE>     OR  FS_eARN-LGART = &apos;/563&apos; .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    IF FS_eARN-BETRG &lt; 0.</FPCLINE>
+      <FPCLINE>      TOTAL_OTHER_DED = TOTAL_OTHER_DED + ( FS_eARN-BETRG  * -1 ).</FPCLINE>
+      <FPCLINE>    ELSE.</FPCLINE>
+      <FPCLINE>      TOTAL_OTHER_DED = TOTAL_OTHER_DED +  FS_eARN-BETRG.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      IF FS_eARN-LGART = &apos;9520&apos; OR</FPCLINE>
+      <FPCLINE>         FS_eARN-LGART = &apos;9518&apos; OR</FPCLINE>
+      <FPCLINE>         FS_eARN-LGART = &apos;9517&apos; .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>         IF FS_eARN-BETRG &lt; 0.</FPCLINE>
+      <FPCLINE>              UNPAID =  UNPAID + ( FS_eARN-BETRG * -1 ).</FPCLINE>
+      <FPCLINE>         ELSE .</FPCLINE>
+      <FPCLINE>              UNPAID =  UNPAID +  FS_eARN-BETRG .</FPCLINE>
+      <FPCLINE>         ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>     IF FS_eARN-LGART = &apos;9521&apos; OR</FPCLINE>
+      <FPCLINE>        FS_eARN-LGART = &apos;9522&apos; OR</FPCLINE>
+      <FPCLINE>        FS_eARN-LGART = &apos;9523&apos; OR</FPCLINE>
+      <FPCLINE>        FS_eARN-LGART = &apos;9524&apos; OR</FPCLINE>
+      <FPCLINE>        FS_eARN-LGART = &apos;9525&apos; .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>          IF FS_eARN-BETRG &lt; 0.</FPCLINE>
+      <FPCLINE>        LATE = LATE + ( FS_eARN-BETRG * -1 ).</FPCLINE>
+      <FPCLINE>          ELSE  .</FPCLINE>
+      <FPCLINE>        LATE = LATE + FS_eARN-BETRG .</FPCLINE>
+      <FPCLINE>          ENDIF.</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>  IF FS_eARN-LGART = &apos;/300&apos; OR &quot;INCOME</FPCLINE>
+      <FPCLINE>     FS_eARN-LGART = &apos;/LRP&apos; &quot;PERSONAL</FPCLINE>
+      <FPCLINE>*   OR  FS_eARN-LGART = &apos;&apos; OR &quot;SOCIAL</FPCLINE>
+      <FPCLINE>*    FS_eARN-LGART = &apos;&apos; OR &quot;MEDICAL</FPCLINE>
+      <FPCLINE>*     FS_eARN-LGART = &apos;9517&apos; OR &quot;UNPAID</FPCLINE>
+      <FPCLINE>*    FS_eARN-LGART = &apos;9521&apos;  &quot;LATNESS</FPCLINE>
+      <FPCLINE>.</FPCLINE>
+      <FPCLINE>     IF FS_eARN-BETRG &lt; 0.</FPCLINE>
+      <FPCLINE>       TOTAL_DED = TOTAL_DED + ( FS_eARN-BETRG * -1 ).</FPCLINE>
+      <FPCLINE>     ELSE.</FPCLINE>
+      <FPCLINE>       TOTAL_DED = TOTAL_DED + FS_eARN-BETRG .</FPCLINE>
+      <FPCLINE>     ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    ENDIF .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE> IF    FS_eARN-LGART = &apos;/300&apos; .</FPCLINE>
+      <FPCLINE>*    &lt;FS_DATA_DED&gt;-WAGETYPE_LONGTEXT = &apos;Income Tax&apos;.</FPCLINE>
+      <FPCLINE>         IF FS_eARN-BETRG &lt; 0.</FPCLINE>
+      <FPCLINE>             INCOME = ( FS_eARN-BETRG * -1 ).</FPCLINE>
+      <FPCLINE>         ELSE .</FPCLINE>
+      <FPCLINE>             INCOME = FS_eARN-BETRG .</FPCLINE>
+      <FPCLINE>         ENDIF.</FPCLINE>
+      <FPCLINE> ELSEIF    FS_eARN-LGART = &apos;/LRP&apos; .</FPCLINE>
+      <FPCLINE>*   &lt;FS_DATA_DED&gt;-WAGETYPE_LONGTEXT = &apos;Personal Loan&apos;.</FPCLINE>
+      <FPCLINE>   IF FS_eARN-BETRG &lt; 0.</FPCLINE>
+      <FPCLINE>             PER_LOAN = ( FS_eARN-BETRG * -1 ).</FPCLINE>
+      <FPCLINE>         ELSE .</FPCLINE>
+      <FPCLINE>             PER_LOAN = FS_eARN-BETRG .</FPCLINE>
+      <FPCLINE>         ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF    FS_eARN-LGART = &apos;&apos; . &quot;SOCIAL INN</FPCLINE>
+      <FPCLINE>**    &lt;FS_DATA_DED&gt;-WAGETYPE_LONGTEXT = &apos;Social Insurance&apos;.</FPCLINE>
+      <FPCLINE>*    IF FS_eARN-BETRG &lt; 0.</FPCLINE>
+      <FPCLINE>*             SOCIAL = ( FS_eARN-BETRG* -1 ).</FPCLINE>
+      <FPCLINE>*         ELSE .</FPCLINE>
+      <FPCLINE>*             SOCIAL = FS_eARN-BETRG.</FPCLINE>
+      <FPCLINE>*         ENDIF.</FPCLINE>
+      <FPCLINE>*  ELSEIF    FS_eARN-LGART = &apos;&apos; . &quot;MEDICAL</FPCLINE>
+      <FPCLINE>**    &lt;FS_DATA_DED&gt;-WAGETYPE_LONGTEXT = &apos;Medical and Life Insurance&apos;.</FPCLINE>
+      <FPCLINE>*     IF &lt;FS_DATA_DED&gt;-PAY_AMOUNT &lt; 0.</FPCLINE>
+      <FPCLINE>*             MEDICAL = ( FS_eARN-BETRG* -1 ).</FPCLINE>
+      <FPCLINE>*         ELSE .</FPCLINE>
+      <FPCLINE>*             MEDICAL = FS_eARN-BETRG .</FPCLINE>
+      <FPCLINE>*         ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>   ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF FS_eARN-lgart = &apos;/560&apos; .</FPCLINE>
+      <FPCLINE>    NET = FS_eARN-betrG .</FPCLINE>
+      <FPCLINE>endif.</FPCLINE>
+      <FPCLINE> ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  LOOP AT HRDATA-STAR_EARNINGS_CURRENT ASSIGNING FIELD-SYMBOL(FS_eARN).</FPCLINE>
+      <FPCLINE>*    CLEAR VAR .</FPCLINE>
+      <FPCLINE>*     IF  FS_eARN-WAGETYPE_KEY = &apos;EG9001&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9002&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9400&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9401&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9402&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9403&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9500&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9501&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9502&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9503&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9504&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9505&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9506&apos;</FPCLINE>
+      <FPCLINE>*     OR  FS_eARN-WAGETYPE_KEY = &apos;EG9507&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9508&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9509&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9510&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9511&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9513&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9514&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9515&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9516&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9529&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9530&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9531&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9532&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9533&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9534&apos;</FPCLINE>
+      <FPCLINE>*     OR     FS_eARN-WAGETYPE_KEY = &apos;EG9535&apos; .</FPCLINE>
+      <FPCLINE>*    TOTAL_OTHER_EARN = TOTAL_OTHER_EARN + FS_eARN-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*    ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*     IF</FPCLINE>
+      <FPCLINE>*     FS_eARN-WAGETYPE_KEY = &apos;EGM020&apos; OR</FPCLINE>
+      <FPCLINE>*     FS_eARN-WAGETYPE_KEY = &apos;EG9536&apos; OR</FPCLINE>
+      <FPCLINE>*     FS_eARN-WAGETYPE_KEY = &apos;EG9512&apos; OR</FPCLINE>
+      <FPCLINE>*     FS_eARN-WAGETYPE_KEY = &apos;EG9000&apos;.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*     VAR = &apos;X&apos; .</FPCLINE>
+      <FPCLINE>*     TOTAL_EARNING = TOTAL_EARNING + FS_eARN-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*  ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*  IF FS_eARN-WAGETYPE_KEY = &apos;EG/101&apos; .</FPCLINE>
+      <FPCLINE>*    FS_eARN-WAGETYPE_LONGTEXT = &apos;Gross Salary&apos;.</FPCLINE>
+      <FPCLINE>*    GROSS = FS_eARN-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*  ELSEIF FS_eARN-WAGETYPE_KEY = &apos;EGM020&apos; .</FPCLINE>
+      <FPCLINE>*     FS_eARN-WAGETYPE_LONGTEXT = &apos;Basic Salary&apos;.</FPCLINE>
+      <FPCLINE>*    BASIC = FS_eARN-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*  ELSEIF FS_eARN-WAGETYPE_KEY = &apos;EG9536&apos; .</FPCLINE>
+      <FPCLINE>*    FS_eARN-WAGETYPE_LONGTEXT = &apos;Special Overtime&apos;.</FPCLINE>
+      <FPCLINE>*    SPECIAL = FS_eARN-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*  ELSEIF FS_eARN-WAGETYPE_KEY = &apos;EG9512&apos; .</FPCLINE>
+      <FPCLINE>*    FS_eARN-WAGETYPE_LONGTEXT = &apos;Normal Overtime&apos;.</FPCLINE>
+      <FPCLINE>*    NORMAL = FS_eARN-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*  ELSEIF FS_eARN-WAGETYPE_KEY = &apos;EG9000&apos;.</FPCLINE>
+      <FPCLINE>*    FS_eARN-WAGETYPE_LONGTEXT = &apos;Transportation Allowance&apos;.</FPCLINE>
+      <FPCLINE>*    TRANS = FS_eARN-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*  ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>**  IF VAR NE &apos;X&apos;.</FPCLINE>
+      <FPCLINE>*   CLEAR FS_eARN.</FPCLINE>
+      <FPCLINE>**  ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>**ENDLOOP.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*LOOP AT HRDATA-STAR_DEDUCTIONS_CUR ASSIGNING FIELD-SYMBOL(&lt;FS_DATA_DED&gt;) .</FPCLINE>
+      <FPCLINE>*     IF  &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9527&apos;</FPCLINE>
+      <FPCLINE>*     OR  &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9519&apos;</FPCLINE>
+      <FPCLINE>*     OR  &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9526&apos;</FPCLINE>
+      <FPCLINE>*     OR  &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9528&apos;</FPCLINE>
+      <FPCLINE>*     OR  &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG/522&apos;</FPCLINE>
+      <FPCLINE>*     OR  &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG/563&apos; .</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*    IF &lt;FS_DATA_DED&gt;-PAY_AMOUNT &lt; 0.</FPCLINE>
+      <FPCLINE>*      TOTAL_OTHER_DED = TOTAL_OTHER_DED + ( &lt;FS_DATA_DED&gt;-PAY_AMOUNT * -1 ).</FPCLINE>
+      <FPCLINE>*    ELSE.</FPCLINE>
+      <FPCLINE>*      TOTAL_OTHER_DED = TOTAL_OTHER_DED +  &lt;FS_DATA_DED&gt;-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*    ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*    ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*      IF &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9520&apos; OR</FPCLINE>
+      <FPCLINE>*         &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9518&apos; OR</FPCLINE>
+      <FPCLINE>*         &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9517&apos; .</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*         IF &lt;FS_DATA_DED&gt;-PAY_AMOUNT &lt; 0.</FPCLINE>
+      <FPCLINE>*              UNPAID =  UNPAID + ( &lt;FS_DATA_DED&gt;-PAY_AMOUNT * -1 ).</FPCLINE>
+      <FPCLINE>*         ELSE .</FPCLINE>
+      <FPCLINE>*              UNPAID =  UNPAID +  &lt;FS_DATA_DED&gt;-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*         ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*      ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*     IF &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9521&apos; OR</FPCLINE>
+      <FPCLINE>*        &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9522&apos; OR</FPCLINE>
+      <FPCLINE>*        &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9523&apos; OR</FPCLINE>
+      <FPCLINE>*        &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9524&apos; OR</FPCLINE>
+      <FPCLINE>*        &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9525&apos; .</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*          IF &lt;FS_DATA_DED&gt;-PAY_AMOUNT &lt; 0.</FPCLINE>
+      <FPCLINE>*        LATE = LATE + ( &lt;FS_DATA_DED&gt;-PAY_AMOUNT * -1 ).</FPCLINE>
+      <FPCLINE>*          ELSE  .</FPCLINE>
+      <FPCLINE>*        LATE = LATE + &lt;FS_DATA_DED&gt;-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*          ENDIF.</FPCLINE>
+      <FPCLINE>*      ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*  IF &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG/300&apos; OR &quot;INCOME</FPCLINE>
+      <FPCLINE>*     &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG/LRP&apos; &quot;PERSONAL</FPCLINE>
+      <FPCLINE>**   OR  &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;&apos; OR &quot;SOCIAL</FPCLINE>
+      <FPCLINE>**     &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;&apos; OR &quot;MEDICAL</FPCLINE>
+      <FPCLINE>**     &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9517&apos; OR &quot;UNPAID</FPCLINE>
+      <FPCLINE>**     &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG9521&apos;  &quot;LATNESS</FPCLINE>
+      <FPCLINE>*.</FPCLINE>
+      <FPCLINE>*     IF &lt;FS_DATA_DED&gt;-PAY_AMOUNT &lt; 0.</FPCLINE>
+      <FPCLINE>*       TOTAL_DED = TOTAL_DED + ( &lt;FS_DATA_DED&gt;-PAY_AMOUNT * -1 ).</FPCLINE>
+      <FPCLINE>*     ELSE.</FPCLINE>
+      <FPCLINE>*       TOTAL_DED = TOTAL_DED + &lt;FS_DATA_DED&gt;-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*     ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*    ENDIF .</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>* IF    &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG/300&apos; .</FPCLINE>
+      <FPCLINE>*    &lt;FS_DATA_DED&gt;-WAGETYPE_LONGTEXT = &apos;Income Tax&apos;.</FPCLINE>
+      <FPCLINE>*         IF &lt;FS_DATA_DED&gt;-PAY_AMOUNT &lt; 0.</FPCLINE>
+      <FPCLINE>*             INCOME = ( &lt;FS_DATA_DED&gt;-PAY_AMOUNT * -1 ).</FPCLINE>
+      <FPCLINE>*         ELSE .</FPCLINE>
+      <FPCLINE>*             INCOME = &lt;FS_DATA_DED&gt;-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*         ENDIF.</FPCLINE>
+      <FPCLINE>* ELSEIF    &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;EG/LRP&apos; .</FPCLINE>
+      <FPCLINE>*   &lt;FS_DATA_DED&gt;-WAGETYPE_LONGTEXT = &apos;Personal Loan&apos;.</FPCLINE>
+      <FPCLINE>*   IF &lt;FS_DATA_DED&gt;-PAY_AMOUNT &lt; 0.</FPCLINE>
+      <FPCLINE>*             PER_LOAN = ( &lt;FS_DATA_DED&gt;-PAY_AMOUNT * -1 ).</FPCLINE>
+      <FPCLINE>*         ELSE .</FPCLINE>
+      <FPCLINE>*             PER_LOAN = &lt;FS_DATA_DED&gt;-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*         ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>**  ELSEIF    &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;&apos; . &quot;SOCIAL INN</FPCLINE>
+      <FPCLINE>**    &lt;FS_DATA_DED&gt;-WAGETYPE_LONGTEXT = &apos;Social Insurance&apos;.</FPCLINE>
+      <FPCLINE>**    IF &lt;FS_DATA_DED&gt;-PAY_AMOUNT &lt; 0.</FPCLINE>
+      <FPCLINE>**             SOCIAL = ( &lt;FS_DATA_DED&gt;-PAY_AMOUNT * -1 ).</FPCLINE>
+      <FPCLINE>**         ELSE .</FPCLINE>
+      <FPCLINE>**             SOCIAL = &lt;FS_DATA_DED&gt;-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>**         ENDIF.</FPCLINE>
+      <FPCLINE>**  ELSEIF    &lt;FS_DATA_DED&gt;-WAGETYPE_KEY = &apos;&apos; . &quot;MEDICAL</FPCLINE>
+      <FPCLINE>**    &lt;FS_DATA_DED&gt;-WAGETYPE_LONGTEXT = &apos;Medical and Life Insurance&apos;.</FPCLINE>
+      <FPCLINE>**     IF &lt;FS_DATA_DED&gt;-PAY_AMOUNT &lt; 0.</FPCLINE>
+      <FPCLINE>**             MEDICAL = ( &lt;FS_DATA_DED&gt;-PAY_AMOUNT * -1 ).</FPCLINE>
+      <FPCLINE>**         ELSE .</FPCLINE>
+      <FPCLINE>**             MEDICAL = &lt;FS_DATA_DED&gt;-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>**         ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*   ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>**     IF VAR1 NE &apos;X&apos; .</FPCLINE>
+      <FPCLINE>*    CLEAR &lt;FS_DATA_DED&gt; .</FPCLINE>
+      <FPCLINE>**     ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>*LOOP AT HRDATA-STAR_EARNINGS_RETRO ASSIGNING FIELD-SYMBOL(&lt;FS_DATA_RETRO_EARN&gt;) .</FPCLINE>
+      <FPCLINE>*   IF &lt;FS_DATA_RETRO_EARN&gt;-WAGETYPE_KEY NE &apos;EG/522&apos;.</FPCLINE>
+      <FPCLINE>*     IF &lt;FS_DATA_RETRO_EARN&gt;-PAY_AMOUNT  &lt; 0.</FPCLINE>
+      <FPCLINE>*       RETRO_NEG = &lt;FS_DATA_RETRO_EARN&gt;-PAY_AMOUNT * -1.</FPCLINE>
+      <FPCLINE>*     ELSE.</FPCLINE>
+      <FPCLINE>*       RETRO = &lt;FS_DATA_RETRO_EARN&gt;-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*     ENDIF.</FPCLINE>
+      <FPCLINE>*   ENDIF .</FPCLINE>
+      <FPCLINE>*ENDLOOP.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>**LOOP AT HRDATA-STAR_EARNINGS_TOT ASSIGNING FIELD-SYMBOL(&lt;FS_EARNINGS_TOT&gt;).</FPCLINE>
+      <FPCLINE>*LOOP AT HRDATA-STAR_NET_PAY ASSIGNING FIELD-SYMBOL(&lt;FS_NET&gt;).</FPCLINE>
+      <FPCLINE>*  NET_PAY = &lt;FS_NET&gt;-PAY_AMOUNT .</FPCLINE>
+      <FPCLINE>*ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  TOTAL_TOTAL_EARN = TOTAL_EARNING + TOTAL_OTHER_EARN + RETRO .</FPCLINE>
+      <FPCLINE>  TOTAL_TOTAL_DED  =  UNPAID + LATE + TOTAL_DED + TOTAL_OTHER_DED + RETRO_NEG .</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>
